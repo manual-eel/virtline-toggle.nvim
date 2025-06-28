@@ -1,6 +1,6 @@
 # virtline-toggle.nvim
 
-Simple plugin to toggle [diagnostic virtual lines](https://github.com/folke/lazy.nvim/blob/main/doc/lazy.nvim.txt).
+Simple plugin to toggle [diagnostic virtual lines](https://neovim.io/doc/user/diagnostic.html#diagnostic-toggle-virtual-lines-example). Requires Neovim 0.11.
 
 Adds the user command `:VirtLineToggle`
 
