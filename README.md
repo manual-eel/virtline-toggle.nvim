@@ -10,15 +10,9 @@ Adds the user command `:VirtLineToggle`
 -- Lazy
 return {
   "manual-eel/virtline-toggle.nvim",
-  opts = {},
+  opts = { invert_virtual_text = true }, -- hide virtual text when virtual lines shown
   keys = {
-    {
-      "<leader>D",
-      function()
-        require("virtline-toggle").toggle()
-      end,
-      desc = "Toggle diagnostic virtual lines",
-    },
+    { "<leader>D", "<cmd>VirtLineToggle<cr>", desc = "Toggle diagnostic virtual lines" },
   },
 }
 ```
